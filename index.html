@@ -32,7 +32,7 @@
 <body class="font-manrope">
     <header>
       <!-- nav section -->
-        <nav class="lg:px-32 px-4">
+        <nav class="lg:px-32 px-4 lg:py-10">
             <div class="navbar">
                 <div class="navbar-start">
                   <div class="dropdown">
@@ -41,7 +41,7 @@
                     </div>
                     <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                       <li><a>Home</a></li>
-                      <li><a>About</a></li>
+                      <li><a href="#about">About</a></li>
                       <li><a>Pages</a></li>
                       <li><a>Blog</a></li>
                       <li><a>Contact</a></li>
@@ -52,7 +52,7 @@
                 <div class="navbar-center hidden lg:flex">
                   <ul class="menu menu-horizontal px-1">
                     <li><a>Home</a></li>
-                    <li><a>About</a></li>
+                    <li><a href="#about">About</a></li>
                     <li><a>Pages</a></li>
                     <li><a>Blog</a></li>
                     <li><a>Contact</a></li>
@@ -80,7 +80,8 @@
     <main class="px-4 lg:px-36">
 
         <!-- carousol items -->
-        <div class="carousel w-full">
+        <div class="carousel ">
+          <!-- item -1 -->
             <div id="slide1" class="carousel-item relative w-full">
               <img src="Images/1.png">
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -92,6 +93,7 @@
                 <p>Dit amet consectetur. Condimentum dignissim <br> adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
               </div>
             </div>
+            <!-- item -2 -->
             <div id="slide2" class="carousel-item relative w-full">
               <img src="./Images/2.jpg">
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -103,6 +105,7 @@
                 <p>Dit amet consectetur. Condimentum dignissim <br> adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
               </div>
             </div> 
+            <!-- item -3 -->
             <div id="slide3" class="carousel-item relative w-full">
               <img src="./Images/3.jpg" class="w-full">
               <div class="p-6 absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -114,6 +117,7 @@
                 <p>Dit amet consectetur. Condimentum dignissim <br> adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
               </div>
             </div> 
+            <!-- item -4 -->
             <div id="slide4" class="carousel-item relative w-full">
               <img src="./Images/4.jpg" class="w-full">
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -125,7 +129,60 @@
                 <p>Dit amet consectetur. Condimentum dignissim <br> adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
               </div>
             </div>
+        </div>
+        <!-- professional hockey club section -->
+        <section class="py-20 " id="about">
+          <div class="w-full text-center">
+            <h1 class="text-4xl extrabold pb-8">Professional Hockeys Club</h1>
+            <p class="font-medium text-base">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis  <br> placerat dolor. Purus urna in sit nullam proin. </p>
           </div>
+          <div class="text-center flex flex-col lg:flex-row items-center">
+            <div class="card w-96 bg-base-100 shadow-xl m-4">
+              <figure class="px-10 pt-10">
+                <div class="radial-progress text-orange-600" style="--value:87;" role="progressbar">87%</div>
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title">Prayer Facility</h2>
+                <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                <div class="card-actions">
+                </div>
+              </div>
+            </div>
+            <div class="card w-96 bg-base-100 shadow-xl m-4">
+              <figure class="px-10 pt-10">
+            <div class="radial-progress text-green-500" style="--value:95;" role="progressbar">95%</div>
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title">Prayer Facility</h2>
+                <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                <div class="card-actions">
+                </div>
+              </div>
+            </div>
+            <div class="card w-96 bg-base-100 shadow-xl m-4">
+              <figure class="px-10 pt-10">
+                <div class="radial-progress text-yellow-400" style="--value:90;" role="progressbar">90%</div>
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title">Prayer Facility</h2>
+                <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                <div class="card-actions">
+                </div>
+              </div>
+            </div>
+            <div class="card w-96 bg-base-100 shadow-xl m-4">
+              <figure class="px-10 pt-10">
+            <div class="radial-progress text-cyan-500" style="--value:80;" role="progressbar">80%</div>
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title">Prayer Facility</h2>
+                <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                <div class="card-actions">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
     </main>
     <footer>
 
