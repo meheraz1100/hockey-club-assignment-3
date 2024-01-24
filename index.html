@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./Images/program1-rounded.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/7d23077085.js" crossorigin="anonymous"></script>
     <style>
         .manrope {
@@ -15,7 +16,7 @@
             font-optical-sizing: auto;
         }
     </style>
-    <script src="https://kit.fontawesome.com/7d23077085.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5bd66e3169.js" crossorigin="anonymous"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -28,7 +29,7 @@
             }
         }
     </script>
-    <title>Assignment3</title>
+    <title>Hockey Club</title>
 </head>
 
 <body class="max-w-7xl py-4 px-10 mx-auto">
@@ -46,24 +47,24 @@
                         </svg>
                     </div>
                     <ul tabindex="0"
-                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                        <li><a class="text-orange-600">Home</a></li>
-                        <li><a>About</a></li>
-                        <li><a>Pages</a></li>
-                        <li><a>Blog</a></li>
-                        <li><a>Contact</a></li>
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-xl">
+                        <li><a>Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#pages">Pages</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
                 <a class="btn btn-ghost text-black font-extrabold text-4xl">Hockey<span
                         class="text-orange-600">'</span>s</a>
             </div>
             <div class="navbar-center hidden lg:flex">
-                <ul class="menu menu-horizontal px-1">
-                    <li><a class="text-orange-600">Home</a></li>
-                    <li><a>About</a></li>
-                    <li><a>Pages</a></li>
-                    <li><a>Blog</a></li>
-                    <li><a>Contact</a></li>
+                <ul class="menu menu-horizontal px-1 text-xl">
+                    <li><a>Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#pages">Pages</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
             <div class="navbar-end space-x-6">
@@ -126,7 +127,7 @@
     </header>
     <main>
         <!-- Professional section -->
-        <section class="mt-60 lg:mt-20">
+        <section class="mt-60 lg:mt-20" id="blog">
             <div>
                 <hr class="border-1 border-dashed border-[background: rgba(19, 19, 24, 0.20);]">
                 <div class="my-3 lg:my-10">
@@ -169,13 +170,12 @@
             </div>
         </section>
         <!-- program section  -->
-        <section>
+        <section id="pages">
             <div>
                 <hr class="border-1 border-dashed border-[background: rgba(19, 19, 24, 0.20);]">
                 <div class="my-3 lg:my-10">
                     <h2 class="text-black text-3xl font-bold text-center">Program Sections</h2>
-                    <p class="text-center text-[#13131899]">We train our member professionally. Our member are very much
-                        expert. <br> They teach many people.</p>
+                    <p class="text-center text-[#13131899]">Our All members are very professional and they are fully dedicated for teaching<br> They teach many people.</p>
                 </div>
                 <hr class="border-1 border-dashed border-[background: rgba(19, 19, 24, 0.20);]">
             </div>
@@ -186,9 +186,7 @@
                     class="flex flex-col items-start justify-center px-10 bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.2)),url('./Images/program1.png')] w-full bg-cover bg-center h-[50vh] rounded-lg">
                     <h2 class="font-extrabold text-xl text-white">Junior Program</h2>
                     <p class="text-white my-2">
-                        Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
-                        enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue
-                        sed et in.
+                      Junior Program Junior ProgramJunior ProgramJunior ProgramJunior ProgramJunior ProgramJunior ProgramJunior ProgramJunior 
                     </p>
                     <button class="btn btn-wide  bg-[#FF4240] text-white border-none">Register Now</button>
                 </div>
@@ -197,9 +195,7 @@
                     class="flex flex-col items-start justify-center px-10 bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.2)),url('./Images/program2.png')] w-full bg-cover bg-center h-[50vh] rounded-lg">
                     <h2 class="font-extrabold text-xl text-white">Teenager Program</h2>
                     <p class="text-white my-2">
-                        Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
-                        enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue
-                        sed et in.
+                        Teenager ProgramTeenager ProgramTeenager ProgramTeenager ProgramTeenager ProgramTeenager Program
                     </p>
                     <button class="btn btn-wide  bg-[#FF4240] border-none text-white">Register Now</button>
                 </div>
@@ -208,9 +204,7 @@
                     class="flex flex-col items-start justify-center px-10 bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.2)),url('./Images/program3.png')] w-full bg-cover bg-center h-[50vh] rounded-lg lg:col-span-2 lg:justify-end lg:pb-10">
                     <h2 class="font-extrabold text-xl text-white">Professional Program</h2>
                     <p class=" text-white my-2">
-                        Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
-                        enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue
-                        sed et in.
+                        Professional ProgramProfessional ProgramProfessional <br> ProgramProfessional ProgramProfessional Program
                     </p>
                     <button class="btn btn-wide border-none bg-[#FF4240] text-white">Register Now</button>
                 </div>
@@ -411,7 +405,7 @@
             </div>
         </section>
         <!-- clints questions  -->
-        <section>
+        <section id="about">
             <div>
                 <hr class="border-1 border-dashed border-[background: rgba(19, 19, 24, 0.20);]">
                 <div class="my-3 lg:my-10">
@@ -504,7 +498,7 @@
             </div>
         </section>
         <!-- get in touch  -->
-        <section>
+        <section id="contact">
             <div>
                 <hr class="border-1 border-dashed border-[background: rgba(19, 19, 24, 0.20);]">
                 <div class="my-3 lg:my-10">
@@ -574,10 +568,10 @@
                 <div class="py-10">
                     <h2 class="font-extrabold text-center text-xl">Social Media</h2>
                     <div class="text-center space-x-3 my-5">
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-facebook"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                        <i class="fa-brands fa-github"></i>
+                        <i class="fa-brands fa-twitter fa-2xl"></i>
+                        <i class="fa-brands fa-facebook fa-2xl"></i>
+                        <i class="fa-brands fa-instagram fa-2xl"></i>
+                        <i class="fa-brands fa-github fa-2xl"></i>
                     </div>
                 </div>
             </div>
@@ -587,10 +581,7 @@
         <div class="p-5 lg:p-32 grid grid-cols-1 lg:flex gap-10 justify-around">
             <div class="text-center lg:text-start text-white lg:flex flex-col">
                 <h2 class="text-xl font-bold">Get In Touch</h2>
-                <p class="my-4">Dit amet consectetur. <br> Condimentum adipiscing aliquam turpis placerat dolor. <br>
-                    Purus urna in
-                    sit nullam
-                    proin.</p>
+                <p class="my-4">Hockey Club Hockey Club Hockey Club<br>Hockey ClubHockey Club  <br>Hockey Club.</p>
                 <div>
                     <div class="text-center lg:text-start">
                         <i class="fa-regular text-orange-500 fa-envelope"></i>
